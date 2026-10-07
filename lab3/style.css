@@ -107,7 +107,7 @@ label {
   font-weight: 500;
 }
 
-/* Input, Select, Textarea талбарууд
+/* Input, Select, Textarea талбаруудыг "амьсгалуулах" */
 input[type="text"],
 input[type="email"],
 input[type="password"],
