@@ -107,3 +107,41 @@ body {
     padding: 15px;
     margin-top: auto;
 }
+
+@media (max-width: 768px) {
+  
+  /* 1. Навигацийн цэсийг (Navbar) босоо цуваа болгох */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .navbar a {
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+  }
+
+  /* 2. Агуулгын хэсгийг (Sidebar + Main) босоо 1 багана болгох */
+  .container {
+    flex-direction: column;
+  }
+
+  /* 3. Зүүн талын цэсийг (Sidebar) бүтэн өргөнтэй болгох */
+  .sidebar {
+    width: 100%;
+  }
+
+  .sidebar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  /* 4. 3 Картыг 3 баганаас 1 багана болгож босоо цувуулах */
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
