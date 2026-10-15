@@ -16,7 +16,7 @@ body {
 
 /* Header */
 .header {
-    background-color: #2c3e50;
+    background-color: #a31e77;
     color: white;
     text-align: center;
     padding: 20px;
@@ -27,7 +27,7 @@ body {
     display: flex; /* Flexbox display */
     justify-content: center; /* Horizontally center links */
     align-items: center;
-    background-color: #34495e;
+    background-color: #e15fcd;
     gap: 20px; /* Space between links */
     padding: 10px;
 }
@@ -97,7 +97,7 @@ body {
     background-color: #ecf0f1;
     padding: 15px;
     border-radius: 6px;
-    border-left: 4px solid #1abc9c;
+    border-left: 4px solid #e279b8cc;
 }
 
 /* Footer */
